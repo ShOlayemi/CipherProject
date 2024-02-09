@@ -1,0 +1,99 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\Projets_Quartus\rc4_Etudiant\rc4\System2M.qsys --block-symbol-file --output-directory=D:\Projets_Quartus\rc4_Etudiant\rc4\System2M --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading rc4/System2M.qsys
+Progress: Reading input file
+Progress: Adding CLK_CPU [clock_source 18.1]
+Progress: Parameterizing module CLK_CPU
+Progress: Adding NIOS2_CPU [altera_nios2_gen2 18.1]
+Progress: Parameterizing module NIOS2_CPU
+Progress: Adding OnChip_Mem [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module OnChip_Mem
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding perf_counter [altera_avalon_performance_counter 18.1]
+Progress: Parameterizing module perf_counter
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: System2M.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\Projets_Quartus\rc4_Etudiant\rc4\System2M.qsys --synthesis=VERILOG --output-directory=D:\Projets_Quartus\rc4_Etudiant\rc4\System2M\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading rc4/System2M.qsys
+Progress: Reading input file
+Progress: Adding CLK_CPU [clock_source 18.1]
+Progress: Parameterizing module CLK_CPU
+Progress: Adding NIOS2_CPU [altera_nios2_gen2 18.1]
+Progress: Parameterizing module NIOS2_CPU
+Progress: Adding OnChip_Mem [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module OnChip_Mem
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding perf_counter [altera_avalon_performance_counter 18.1]
+Progress: Parameterizing module perf_counter
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: System2M.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: System2M: Generating System2M "System2M" for QUARTUS_SYNTH
+Info: NIOS2_CPU: "System2M" instantiated altera_nios2_gen2 "NIOS2_CPU"
+Info: OnChip_Mem: Starting RTL generation for module 'System2M_OnChip_Mem'
+Info: OnChip_Mem:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=System2M_OnChip_Mem --dir=C:/Users/Fred/AppData/Local/Temp/alt9444_903474642218419916.dir/0002_OnChip_Mem_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/Fred/AppData/Local/Temp/alt9444_903474642218419916.dir/0002_OnChip_Mem_gen//System2M_OnChip_Mem_component_configuration.pl  --do_build_sim=0  ]
+Info: OnChip_Mem: Done RTL generation for module 'System2M_OnChip_Mem'
+Info: OnChip_Mem: "System2M" instantiated altera_avalon_onchip_memory2 "OnChip_Mem"
+Info: jtag_uart_0: Starting RTL generation for module 'System2M_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=System2M_jtag_uart_0 --dir=C:/Users/Fred/AppData/Local/Temp/alt9444_903474642218419916.dir/0003_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/Fred/AppData/Local/Temp/alt9444_903474642218419916.dir/0003_jtag_uart_0_gen//System2M_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'System2M_jtag_uart_0'
+Info: jtag_uart_0: "System2M" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: perf_counter: Starting RTL generation for module 'System2M_perf_counter'
+Info: perf_counter:   Generation command is [exec C:/intelfpga/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/18.1/quartus/bin64/perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter -- C:/intelfpga/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter/generate_rtl.pl --name=System2M_perf_counter --dir=C:/Users/Fred/AppData/Local/Temp/alt9444_903474642218419916.dir/0004_perf_counter_gen/ --quartus_dir=C:/intelfpga/18.1/quartus --verilog --config=C:/Users/Fred/AppData/Local/Temp/alt9444_903474642218419916.dir/0004_perf_counter_gen//System2M_perf_counter_component_configuration.pl  --do_build_sim=0  ]
+Info: perf_counter: Done RTL generation for module 'System2M_perf_counter'
+Info: perf_counter: "System2M" instantiated altera_avalon_performance_counter "perf_counter"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "System2M" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "System2M" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "System2M" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'System2M_NIOS2_CPU_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA/18.1/quartus/bin64//perl/lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/18.1/quartus/sopc_builder/bin -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=System2M_NIOS2_CPU_cpu --dir=C:/Users/Fred/AppData/Local/Temp/alt9444_903474642218419916.dir/0007_cpu_gen/ --quartus_bindir=C:/intelFPGA/18.1/quartus/bin64/ --verilog --config=C:/Users/Fred/AppData/Local/Temp/alt9444_903474642218419916.dir/0007_cpu_gen//System2M_NIOS2_CPU_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2023.03.28 18:17:25 (*) Starting Nios II generation
+Info: cpu: # 2023.03.28 18:17:25 (*)   Checking for plaintext license.
+Info: cpu: # 2023.03.28 18:17:26 (*)   Plaintext license not found.
+Info: cpu: # 2023.03.28 18:17:26 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2023.03.28 18:17:26 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2023.03.28 18:17:26 (*)   Creating all objects for CPU
+Info: cpu: # 2023.03.28 18:17:28 (*)   Generating RTL from CPU objects
+Info: cpu: # 2023.03.28 18:17:28 (*)   Creating plain-text RTL
+Info: cpu: # 2023.03.28 18:17:29 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'System2M_NIOS2_CPU_cpu'
+Info: cpu: "NIOS2_CPU" instantiated altera_nios2_gen2_unit "cpu"
+Info: NIOS2_CPU_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "NIOS2_CPU_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: NIOS2_CPU_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "NIOS2_CPU_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file D:/Projets_Quartus/rc4_Etudiant/rc4/System2M/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Projets_Quartus/rc4_Etudiant/rc4/System2M/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file D:/Projets_Quartus/rc4_Etudiant/rc4/System2M/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: System2M: Done "System2M" with 27 modules, 39 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

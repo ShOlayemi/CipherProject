@@ -1,0 +1,7 @@
+	component System2M is
+		port (
+			clk_cpu_clk   : in std_logic := 'X'; -- clk
+			reset_reset_n : in std_logic := 'X'  -- reset_n
+		);
+	end component System2M;
+

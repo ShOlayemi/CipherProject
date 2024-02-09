@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Mar 27 17:26:37 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : rc4
+Top-level Entity Name : rc4
+Family : MAX 10
+Total logic elements : 4,024
+    Total combinational functions : 2,964
+    Dedicated logic registers : 2,615
+Total registers : 2615
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 1,356,800
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

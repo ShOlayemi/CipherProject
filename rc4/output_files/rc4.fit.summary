@@ -1,0 +1,18 @@
+Fitter Status : Successful - Mon Mar 27 17:27:09 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : rc4
+Top-level Entity Name : rc4
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 3,883 / 49,760 ( 8 % )
+    Total combinational functions : 2,972 / 49,760 ( 6 % )
+    Dedicated logic registers : 2,607 / 49,760 ( 5 % )
+Total registers : 2607
+Total pins : 2 / 360 ( < 1 % )
+Total virtual pins : 0
+Total memory bits : 1,356,800 / 1,677,312 ( 81 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
